@@ -1,0 +1,36 @@
+.test-row .column p {
+  border: 1px dotted #868383;
+  box-shadow: 2px 2px;
+  padding: 15px; }
+
+@media only screen and (max-width: 639px) {
+  .imgs-row .column img {
+    margin-bottom: 30px; } }
+
+.test-row {
+  margin-bottom: 30px; }
+  .test-row .column {
+    text-align: center; }
+    .test-row .column h1 {
+      font-size: 24px; }
+    .test-row .column h3 {
+      color: #ccc; }
+    .test-row .column p {
+      color: #8e6161;
+      font-size: 18px;
+      border-radius: 10px;
+      background-color: orange; }
+
+.second-test-row .column p {
+  border: 1px dashed #ccc;
+  padding: 15px; }
+
+.second-test-row {
+  margin-top: 30px; }
+  .second-test-row .column h4 {
+    color: orange;
+    font-size: 26px; }
+  .second-test-row .column p {
+    font-size: 20px; }
+
+/*# sourceMappingURL=app.css.map */
